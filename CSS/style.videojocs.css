@@ -20,7 +20,7 @@
 }
 
 .menu {
-    background-color: rgba(25, 25, 131, 0.705);
+    background-color: rgba(25, 25, 131, 0.781);
     width: 100%;
     text-align: center;
 }
@@ -44,8 +44,10 @@
 }
 
 .video {
-    height: 500px;
-    width: 900px;
-    justify-content: center;
-    align-items: center;
+    height: 375px;
+    width: 100%;
+}
+
+.inicio {
+    color: black;
 }

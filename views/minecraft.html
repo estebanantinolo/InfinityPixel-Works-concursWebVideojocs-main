@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Minecraft</title>
     <link rel="stylesheet" href="./../CSS/style.videojocs.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
@@ -11,13 +11,23 @@
     <link rel="icon" href="./../img/logo.png">
 </head>
 
-<!-- Menu -->
-<div class="col-12 menu">
-    <a href="./../index.html"><p>Volver a inicio</p></a>
-</div>
+
 
 
 <body id="body">
+
+
+    <!-- Menu -->
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand">PixelForge Studios</a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+      <a class="inicio" href="./../index.html">Volver al inicio</a>
+    </div>
+  </nav>
     
     <div class="row">
 <!-- Titulo juego y descripcion todo en linea -->
@@ -34,15 +44,21 @@
 
                 PRECIO:
             <br>
-            EL juego físico cuesta 15,79€. De manera virtual, cuesta de 4€ a 8€ dependiendo la edición.</p>  
-
-            <iframe class="video" src="https://www.youtube.com/embed/MmB9b5njVbA" title="Official Minecraft Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+            EL juego físico cuesta 15,79€. De manera virtual, cuesta de 4€ a 8€ dependiendo la edición.</p> 
+            
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                    <iframe class="video" src="https://www.youtube.com/embed/MmB9b5njVbA" title="Official Minecraft Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+                </div>
+            </div>
             
         </div>
 
-        <div class="col-lg-4 col-sm-12"> <img src="./../img/1.png" class="dimension"> </div>
+            <div class="col-lg-4 col-sm-12"> <img src="./../img/1.png" class="dimension"> </div>
+        </div>
 
         <div clas="col-lg-12 col-sm-12">
+            <br>
             <table class="uniform-table" style="width: 100%; text-align: center; border: 3px solid rgb(161, 161, 161); border-collapse: collapse;">
                 <thead>
                     <tr class="fondo-encabezado">
@@ -62,10 +78,7 @@
                 </tbody>
             </table>
 
-
         </div>
-
     </div>
-
 </body>
 </html>
