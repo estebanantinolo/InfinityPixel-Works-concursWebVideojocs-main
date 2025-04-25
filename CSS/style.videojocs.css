@@ -1,3 +1,4 @@
+/* Personalización del fondo */
 #body {
     background-image: url(./../img/fondo.png);
     color: white;
@@ -9,24 +10,33 @@
     background-repeat: no-repeat;
 }
 
+/* Tipografia personalizada */
 @font-face {
     font-family: "Roboto_Condensed";
     src: url(./../fuente/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf);
 }
 
+/* Personalización de la foto de la portada */
 .dimension {
     height: 95%;
     width: 100%;
 }
 
+/* Personalización del menú superior */
 .menu {
     background-color: rgba(25, 25, 131, 0.781);
     width: 100%;
     text-align: center;
 }
 
+/* Personalización de la tabla */
 .imagen-tabla {
-    width: 200px;
+    width: 210px;
+    height: 275px;
+}
+
+.imagen-tabla-fortnite-eafc {
+    width: 290px;
     height: 275px;
 }
 
@@ -43,6 +53,7 @@
     align-items: center;
 }
 
+/* Tamaño video de YT */
 .video {
     height: 375px;
     width: 100%;
